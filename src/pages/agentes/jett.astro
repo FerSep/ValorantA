@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/jett/Jett_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/jett/Cloudburst.webp"
+            spell2="/agentes/jett/Updraft.webp"
+            spell3="/agentes/jett/Tailwind.webp"
+            spell4="/agentes/jett/Blade_Storm.webp"
+            icono="/Icons/DuelistClassSymbol.webp"
+
+            texto="Jett es una agente ágil y rápida que se especializa en el control del aire. Sus habilidades le permiten moverse rápidamente por el mapa, evitando el daño y atacando a sus enemigos con gran precisión. Ideal para jugadores que disfrutan de la movilidad y la flexibilidad en su estilo de juego."
+            titulo="JETT"
+            descriTitulo="Duelista"
+        
+            texto1="(Habilidad-1) Cloudburst: Jett lanza una nube de niebla que bloquea la visión en un área. Esta habilidad es perfecta para cubrir los movimientos de su equipo o para desorientar al enemigo, permitiéndole tomar un ángulo ventajoso."
+            texto2="(Habilidad-2) Updraft: Jett consume una carga para impulsarse hacia arriba, permitiéndole alcanzar lugares elevados o escapar de situaciones peligrosas. Su movilidad aérea la convierte en una agente difícil de atrapar."
+            texto3="(Habilidad-3) Tailwind: Jett obtiene un impulso de velocidad en la dirección en la que se mueve. Esta habilidad se activa después de una eliminación, permitiéndole a Jett reposicionarse rápidamente y mantener la presión sobre el enemigo."
+            texto4="(Ultimate) Tempest: Jett invoca su poder completo, obteniendo la capacidad de disparar cuchillas de viento que infligen daño y pueden rebotar en múltiples objetivos. Mientras tiene esta habilidad activa, Jett también obtiene un aumento en su movilidad, lo que le permite esquivar y atacar con mayor efectividad."
+        
+            />
+        </section>
+    </main>

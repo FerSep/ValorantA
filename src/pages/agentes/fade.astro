@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/fade/Fade_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/fade/Prowler.webp"
+            spell2="/agentes/fade/Seize.webp"
+            spell3="/agentes/fade/Nightfall.webp"
+            spell4="/agentes/fade/Haunt.webp"
+            icono="/Icons/InitiatorClassSymbol.webp"
+            
+            texto="Fade es una agente turca especialista en el control de la información y el debilitamiento del enemigo. Sus habilidades le permiten rastrear y presionar al equipo contrario, creando un ambiente de constante amenaza. Ideal para jugadores que disfrutan desestabilizando al enemigo y proporcionando ventaja a su equipo."
+            titulo="FADE"
+            descriTitulo="Iniciadora"
+        
+            texto1="(Habilidad-1) Prowler: Fade lanza una criatura que se desplaza en línea recta y rastrea a los enemigos en su camino. Al detectar a un enemigo, se acerca a ellos, los aturde y los deja vulnerables. Es excelente para despejar ángulos o forzar a los enemigos a moverse de su posición."
+            texto2="(Habilidad-2) Seize: Fade lanza una esfera que, al detonar, emite una zona de control que ralentiza y limita la visión de los enemigos dentro de su área de efecto. Esta habilidad es ideal para controlar espacios clave o impedir el movimiento de los rivales durante un asedio."
+            texto3="(Habilidad-3) Nightfall: Fade lanza una esfera de oscuridad que se extiende a través del mapa, detectando a los enemigos en su camino y aplicando un efecto de ceguera y ralentización a todos los enemigos atrapados dentro. Es una habilidad ideal para tomar el control de puntos críticos o interrumpir la defensa enemiga."
+            texto4="(Ultimate) Hunter's Fury: Fade activa una serie de lanzadores que disparan flechas en línea recta, atravesando el mapa y dañando a los enemigos en su camino. Las flechas también aplican un efecto que revela la ubicación de los enemigos golpeados, brindando a Fade y su equipo una ventaja significativa."
+        
+            />
+        </section>
+    </main>

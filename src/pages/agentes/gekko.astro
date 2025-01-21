@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/gekko/Gekko_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/gekko/Mosh_Pit.webp"
+            spell2="/agentes/gekko/Wingman.webp"
+            spell3="/agentes/gekko/Dizzy.webp"
+            spell4="/agentes/gekko/Thrash.webp"
+            icono="/Icons/InitiatorClassSymbol.webp"
+            
+            texto="Gekko es un agente lleno de energía y creatividad, que se especializa en la interacción con dispositivos que se comportan casi como mascotas. Sus habilidades le permiten controlar el terreno de juego y generar caos en las filas enemigas con una mezcla de diversión y eficacia. Ideal para jugadores que disfrutan de un estilo de juego versátil y de impacto."
+            titulo="GEKKO"
+            descriTitulo="Iniciador"
+        
+            texto1="(Habilidad-1) Mosh Pit: Gekko lanza una esfera que, al activarse, crea una explosión de energía que inflige daño y desorienta a los enemigos cercanos. Es ideal para despejar áreas o forzar a los enemigos a salir de posiciones clave."
+            texto2="(Habilidad-2) Wingman: Gekko despliega un dispositivo en forma de mascota voladora que, al ser activado, se mueve en línea recta y puede ser dirigido para explotar sobre los enemigos o tomar control de puntos específicos del mapa. Esta habilidad puede ser utilizada para abrir caminos o sorprender a los enemigos."
+            texto3="(Habilidad-3) Dizzy: Gekko lanza un dispositivo que, al explotar, emite una nube de gas que aturde y ralentiza a los enemigos atrapados dentro de ella. Ideal para reducir la efectividad del equipo enemigo antes de entrar en combate."
+            texto4="(Ultimate) Gekko's Revenge: Gekko invoca una versión mejorada de Wingman que, al activarse, hace un ataque masivo sobre una zona designada, infligiendo gran daño y desorientando a los enemigos en un área más amplia. Es una habilidad perfecta para romper líneas defensivas o causar pánico en el equipo contrario."
+        
+            />
+        </section>
+    </main>

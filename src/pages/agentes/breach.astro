@@ -1,0 +1,42 @@
+
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+<Layout>
+    
+
+<main>
+    <section class="caja">
+
+        <Agente 
+        imagen="/agentes/breach/Breach_Artwork_Full.webp"
+
+        />
+
+
+        <Descri 
+        spell1="/agentes/breach/Fault_Line.webp"
+        spell2="/agentes/breach/Flashpoint.webp"
+        spell3="/agentes/breach/Aftershock.webp"
+        spell4="/agentes/breach/Rolling_Thunder.webp"
+        icono="/Icons/InitiatorClassSymbol.webp"
+        
+        texto="Breach es un personaje que sobresale en abrir espacio para su equipo y desorientar a los enemigos. Su habilidad para atravesar paredes con sus habilidades y generar caos es crucial para facilitar el avance en los sitios. Sin embargo, requiere una buena coordinación con su equipo para aprovechar al máximo su potencial."
+        titulo="BREACH"
+        descriTitulo="Iniciador"
+
+        texto1="(Habilidad-1) Fault Line: Breach canaliza una onda sísmica en línea recta que atraviesa paredes, aturdiendo a los enemigos en su trayectoria. La habilidad puede ser cargada para aumentar su alcance. Es útil para interrumpir defensas, desorganizar a los enemigos y facilitar la entrada a sitios."
+        texto2="(Habilidad-2) Flashpoint: Breach dispara una explosión cegadora a través de superficies, cegando a todos los enemigos en el área afectada. Esta habilidad es perfecta para entrar en sitios o forzar a los enemigos a retroceder. Su capacidad para atravesar paredes hace que sea impredecible y difícil de contrarrestar."
+        texto3="(Habilidad-3) Aftershock: Breach dispara una carga explosiva que atraviesa paredes y explota en múltiples ondas, infligiendo un gran daño a los enemigos atrapados en su radio de acción. Es ideal para despejar ángulos estrechos o forzar a los enemigos a salir de posiciones defensivas."
+        texto4="(Ultimate) Rolling Thunder: Breach despliega una explosión sísmica masiva en un área frontal que atraviesa el mapa en línea recta. Todos los enemigos atrapados en su área de efecto son aturdidos y derribados temporalmente, dejándolos vulnerables y fuera de combate. Es ideal para ejecutar un ataque coordinado o despejar un punto clave."
+
+        />
+    </section>
+</main>
+
+</Layout>

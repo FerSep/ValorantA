@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/viper/Viper_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/viper/Poison_Cloud.webp"
+            spell2="/agentes/viper/Toxic_Screen.webp"
+            spell3="/agentes/viper/Snake_Bite.webp"
+            spell4="/agentes/viper/Viper_Pit.webp"
+            icono="/Icons/ControllerClassSymbol.webp"
+
+            texto="Viper es una agente controladora que sobresale en el uso de venenos y control del área. Sus habilidades le permiten bloquear la visión del enemigo, infligir daño a largo plazo y proteger las posiciones de su equipo con sus dispositivos tóxicos."
+            titulo="VIPER"
+            descriTitulo="Controladora"
+        
+            texto1="(Habilidad-1) Bola Venenosa: Viper lanza una bola que se desplaza por el mapa y libera un gas venenoso en su área de efecto. El gas daña a los enemigos que lo atraviesan y bloquea la visión, lo que la hace ideal para controlar áreas clave del mapa."
+            texto2="(Habilidad-2) Cortina Tóxica: Viper coloca una cortina de gas tóxico que bloquea la visión y reduce la movilidad de los enemigos en su área de efecto. La cortina se activa con un dispositivo y puede ser movida para adaptarse a la situación."
+            texto3="(Habilidad-3) Fuego Abrasador: Viper lanza una nube de gas venenoso a una posición determinada. Esta nube se activa al contacto y hace que los enemigos dentro de su radio de acción sufran daño continuo, lo que la convierte en una herramienta de control del terreno."
+            texto4="(Ultimate) Manto de Viper: Viper activa su habilidad definitiva para crear una gran nube venenosa en el área que cubre una gran parte del mapa. Los enemigos dentro de la nube reciben daño continuo y la visibilidad es completamente bloqueada, lo que convierte a esta habilidad en una herramienta perfecta para bloquear zonas clave o retrasar el avance del enemigo."
+        
+            />
+        </section>
+    </main>

@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/killjoy/Killjoy_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/killjoy/Nanoswarm.webp"
+            spell2="/agentes/killjoy/Alarmbot.webp"
+            spell3="/agentes/killjoy/Turret.webp"
+            spell4="/agentes/killjoy/Lockdown.webp"
+            icono="/Icons/SentinelClassSymbol.webp"
+            
+            texto="Killjoy es una agente defensiva que se especializa en el control de zonas y la creación de trampas. Sus habilidades le permiten bloquear el avance enemigo y proporcionar un gran soporte para su equipo. Ideal para jugadores que disfrutan de mantener el control de áreas clave del mapa y atrapar a los oponentes desprevenidos."
+            titulo="KILLJOY"
+            descriTitulo="Centinela"
+        
+            texto1="(Habilidad-1) Nanoswarm: Killjoy lanza una granada que, al activarse, emite una explosión de nanobots que inflige daño a los enemigos cercanos. Esta habilidad es perfecta para defender sitios o sorprender a los enemigos en puntos clave."
+            texto2="(Habilidad-2) Alarmbot: Killjoy despliega un dispositivo que, al ser activado, emite una onda electromagnética que desactiva las habilidades enemigas y ralentiza a los enemigos dentro de su alcance. Esta habilidad puede cambiar el curso de una ronda, brindando tiempo para que su equipo reaccione."
+            texto3="(Habilidad-3) Turret: Killjoy coloca una torreta automática que detecta a los enemigos cercanos y los ralentiza al ser alcanzados. Esta habilidad sirve para obtener información y retrasar los movimientos enemigos, alertando a su equipo de la presencia enemiga."
+            texto4="(Ultimate) Lockdown: Killjoy despliega un enorme dispositivo que, al activarse, emite una onda de energía que desactiva las habilidades enemigas y ralentiza a los enemigos atrapados en su radio de acción. Es ideal para bloquear entradas o dificultar las maniobras del equipo contrario."
+        
+            />
+        </section>
+    </main>

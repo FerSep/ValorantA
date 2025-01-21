@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/sage/Sage_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/sage/Healing_Orb.webp"
+            spell2="/agentes/sage/Slow_Orb.webp"
+            spell3="/agentes/sage/Barrier_Orb.webp"
+            spell4="/agentes/sage/Resurrection.webp"
+            icono="/Icons/SentinelClassSymbol.webp"
+            
+            texto="Sage es una agente centinela que se especializa en la curación y el control del espacio. Su capacidad para sanar a sus compañeros y bloquear el avance enemigo la convierte en una pieza clave para mantener la ventaja en el campo de batalla."
+            titulo="SAGE"
+            descriTitulo="Centinela"
+        
+            texto1="(Habilidad-1) Orbe de Sanación: Sage equipa un orbe que, al lanzarlo sobre un aliado herido, lo cura durante un breve período. Si Sage está herida, puede usarlo para curarse a sí misma. Esta habilidad es esencial para mantener a los compañeros de equipo en combate y prolongar la supervivencia del equipo."
+            texto2="(Habilidad-2) Orbe de Ralentización: Sage equipa un orbe que, al lanzarlo al suelo, crea un campo que ralentiza a los enemigos que lo atraviesan. Es útil para frenar el avance enemigo o para cubrir retiradas."
+            texto3="(Habilidad-3) Orbe Barrera: Sage equipa un orbe que, al lanzarlo, crea una pared sólida que bloquea la visión y el paso. Puede rotarla antes de colocarla para adaptarse a diferentes situaciones. Es ideal para bloquear rutas de acceso o para proteger áreas clave."
+            texto4="(Ultimate) Resurrección: Sage equipa una habilidad que le permite resucitar a un aliado caído. Al apuntar sobre un compañero muerto y activar la habilidad, lo revive con toda su salud. Esta habilidad puede cambiar el curso de una ronda al devolver a un jugador clave al juego."
+        
+            />
+        </section>
+    </main>

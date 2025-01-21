@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/neon/Neon_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/neon/High_Gear.webp"
+            spell2="/agentes/neon/Relay_Bolt.webp"
+            spell3="/agentes/neon/Fast_Lane.webp"
+            spell4="/agentes/neon/Overdrive.webp"
+            icono="/Icons/DuelistClassSymbol.webp"
+            
+            texto="Neon es una agente explosiva con habilidades centradas en la velocidad y la agilidad. Su capacidad para moverse rápidamente por el mapa y generar caos con sus habilidades la convierte en una opción perfecta para jugadores que disfrutan de un estilo de juego rápido y agresivo."
+            titulo="NEON"
+            descriTitulo="Duelista"
+        
+            texto1="(Habilidad-1) High Gear: Neon activa una habilidad que le permite correr a gran velocidad durante un corto período de tiempo. Esta habilidad le da una gran movilidad, permitiéndole reubicar sus posiciones, escapar o cerrar distancias rápidamente con los enemigos."
+            texto2="(Habilidad-2) Relay Bolt: Neon lanza un dispositivo que rebota, electrificando el área en un radio y aturdiendo a los enemigos que estén dentro de su alcance. Es útil para desorientar a los enemigos y obligarlos a moverse fuera de sus posiciones."
+            texto3="(Habilidad-3) Fast Lane: Neon crea dos paredes de energía que se desplazan hacia adelante, bloqueando la visión y desorientando a los enemigos atrapados en su trayectoria. Esta habilidad es ideal para dividir el campo de batalla y dar ventaja a su equipo."
+            texto4="(Ultimate) Overdrive: Neon canaliza toda su energía y obtiene una potente velocidad extra, junto con la capacidad de disparar un rayo de energía que atraviesa a los enemigos. Durante el uso de esta habilidad, su velocidad y capacidad de daño aumentan considerablemente, lo que la hace letal en combates cercanos."
+        
+            />
+        </section>
+    </main>

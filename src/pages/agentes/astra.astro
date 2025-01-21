@@ -1,0 +1,39 @@
+---
+import '../../Styles/Global.css';
+import Layout from '../../layouts/Layout.astro';
+import Descri from '../../components/Descripcion.astro';
+import Agente from '../../components/Agente.astro';
+---
+
+<Layout>
+
+
+<main>
+    <section class="caja">
+
+        <Agente 
+        imagen="/agentes/astra/Astra_Artwork_Full.webp"
+
+        />
+
+
+        <Descri 
+        spell1="/agentes/astra/Nebula_Dissipate.webp"
+        spell2="/agentes/astra/Gravity_Well.webp"
+        spell3="/agentes/astra/Nova_Pulse.webp"
+        spell4="/agentes/astra/Cosmic.webp"
+        icono="/Icons/ControllerClassSymbol.webp"
+        texto="Astra es un personaje que requiere habilidades de posicionamiento y coordinación en equipo. Su capacidad para alterar el espacio y proporcionar cobertura o crear caos en las líneas enemigas puede cambiar el curso de una ronda, aunque su efectividad depende mucho de la capacidad de anticipación y la estrategia."
+        titulo="ASTRA"
+        descriTitulo="Controladora"
+
+        texto1="(Habilidad-1) Nebula: Astra usa estrellas cósmicas que puede transformar en nebulosas, creando grandes esferas que bloquean la visión. Se pueden colocar de forma estratégica en el mapa para negar líneas de visión al enemigo o dificultar su avance"
+        texto2="(Habilidad-2) Gravity Well: Esta habilidad permite que Astra coloque una estrella en el mapa que, al activarse, crea un agujero de gravedad que atrae a los enemigos hacia el centro, lo que los ralentiza y los deja vulnerables. Es útil para desorientar y desorganizar al enemigo, obligándolos a moverse de forma incómoda."
+        texto3="(Habilidad-3) Nova Pulse: Astra puede activar una estrella para crear una explosión de energía cósmica que aturde a los enemigos dentro de su radio de acción. Esto les impide moverse o actuar durante un tiempo, lo que puede ser decisivo para el control del mapa"
+        texto4="(Ultimate) Cosmic Divide: Astra utiliza su energía cósmica para crear una barrera masiva que atraviesa el mapa, bloqueando la visión y haciendo que los disparos a través de ella sean menos efectivos. Esta habilidad es ideal para dividir áreas, crear oportunidades para avanzar o retirarse, o hacer que la entrada en puntos de control sea más difícil para los enemigos."
+        
+        />
+    </section>
+</main>
+
+</Layout>

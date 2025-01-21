@@ -1,0 +1,254 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Cards from '../components/Cards.astro';
+
+---
+
+<Layout>
+
+	<section class="menucaja">
+        <nav class="menu">
+            <article class="menuboton ">
+                <img src="/public//icons/DuelistClassSymbol.webp" alt="">
+            </article>
+            <article class="menuboton ">
+                <img src="/public//icons/ControllerClassSymbol.webp" alt="">
+            </article>
+            <article class="menuboton ">
+                <img src="/public/icons/SentinelClassSymbol.webp" alt="">
+            </article>
+            <article class="menuboton ">
+                <img src="/public/icons/InitiatorClassSymbol.webp" alt="">
+            </article>
+        </nav>
+    </section>
+
+
+<section class="principal">
+	<a href="/agentes/astra">
+		<Cards
+		  image="/iconos_agentes/Astra_icon_1_11zon.webp"
+		  name="Astra"
+		/>
+	  </a>
+
+	<a href="/agentes/breach">
+		<Cards
+		  image="/iconos_agentes/Breach_icon_2_11zon.webp"
+		  name="Breach"
+		/>
+	</a>
+
+	<a  href="/agentes/brimstone">
+		<Cards
+		  image="/iconos_agentes/Brimstone_icon_3_11zon.webp"
+		  name="Brimstone"
+		/>
+	</a>
+
+	<a href="/agentes/chamber">
+		<Cards
+		  image="/iconos_agentes/Chamber_icon_4_11zon.webp"
+		  name="Chamber"
+		/>
+	</a>
+
+	<a href="/agentes/clove">
+		<Cards
+		image="/iconos_agentes/Clove_icon_5_11zon.webp"
+		name="Clove"
+		/>
+	</a>
+
+	<a href="/agentes/cypher">
+		<Cards
+		  image="/iconos_agentes/Cypher_icon_6_11zon.webp"
+		  name="Cypher"
+		/>
+	</a>
+
+	<a href="/agentes/deadlock">
+		<Cards
+		image="/iconos_agentes/Deadlock_icon_7_11zon.webp"
+		name="DeadLock"
+		/>
+	</a>
+
+	<a href="/agentes/fade">
+		<Cards
+		image="/iconos_agentes/Fade_icon_8_11zon.webp"
+		name="Fade"
+		/>
+	</a>
+
+	<a href="/agentes/gekko">
+		<Cards
+		image="/iconos_agentes/Gekko_icon_9_11zon.webp"
+		name="Gekko"
+		/>
+	</a>
+
+	<a href="/agentes/harbor">
+		<Cards
+		image="/iconos_agentes/Harbor_icon_10_11zon.webp"
+		name="Harbor"
+		/>
+	</a>
+
+	<a href="/agentes/iso">
+		<Cards
+		image="/iconos_agentes/Iso_icon_11_11zon.webp"
+		name="Iso"
+		/>
+	</a>
+
+	<a href="/agentes/jett">
+		<Cards
+		  image="/iconos_agentes/Jett_icon_12_11zon.webp"
+		  name="Jett"
+		/>
+	</a>
+
+	<a href="/agentes/kayo">
+		<Cards
+		  image="/iconos_agentes/KAYO_icon_13_11zon.webp"
+		  name="Kayo"
+		/>
+	</a>
+
+	<a href="/agentes/killjoy">
+		<Cards
+		image="/iconos_agentes/Killjoy_icon_14_11zon.webp"
+		name="KillJoy"
+		/>
+	</a>
+
+	<a href="/agentes/neon">
+		<Cards
+		image="/iconos_agentes/Neon_icon_15_11zon.webp"
+		name="Neon"
+		/>
+	</a>
+
+
+	<a href="/agentes/omen">
+		<Cards
+		image="/iconos_agentes/Omen_icon_16_11zon.webp"
+		name="Omen"
+		/>
+	</a>
+
+	<a href="/agentes/phoenix">
+		<Cards
+		image="/iconos_agentes/Phoenix_icon_17_11zon.webp"
+		name="Phoenix"
+		/>
+	</a>
+
+	<a href="/agentes/raze">
+		<Cards
+		image="/iconos_agentes/Raze_icon_18_11zon.webp"
+		name="Raze"
+		/>
+	</a>
+
+	<a href="/agentes/reyna">
+		<Cards
+		image="/iconos_agentes/Reyna_icon_19_11zon.webp"
+		name="Reyna"
+		/>
+	</a>
+
+	<a href="/agentes/sage">
+		<Cards
+		image="/iconos_agentes/Sage_icon_20_11zon.webp"
+		name="Sage"
+		/>
+	</a>
+
+	<a href="/agentes/skye">
+		<Cards
+		image="/iconos_agentes/Skye_icon_21_11zon.webp"
+		name="Skye"
+		/>
+	</a>
+
+	<a href="/agentes/sova">
+		<Cards
+		image="/iconos_agentes/Sova_icon_22_11zon.webp"
+		name="Sova"
+		/>
+	</a>
+
+	<a href="/agentes/viper">
+		<Cards
+		image="/iconos_agentes/Viper_icon_23_11zon.webp"
+		name="Viper"
+		/>
+	</a>
+
+	<a href="/agentes/yoru">
+		<Cards
+		image="/iconos_agentes/Yoru_icon_24_11zon.webp"
+		name="Yoru"
+		/>
+	</a>	
+
+
+
+
+
+
+</section>
+
+<style>
+	.principal a{
+		display: block;
+		text-decoration: none;
+		margin: 24px;
+	}
+
+	.menucaja{
+    margin-top: 16px;
+    margin-inline: 10px;
+    padding: 0;
+    border-radius: 25px;
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    padding-inline: 0;
+}
+.menuboton{
+    display: flex;
+    padding: 14px;
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+}
+.menuboton:hover{
+    filter: drop-shadow(0 0 6px rgb(255, 255, 255));
+    scale: 102%;
+    transition: 0.3s;
+}
+.principal{
+    margin-top: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+</style>
+
+</Layout>

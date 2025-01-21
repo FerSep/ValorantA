@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/deadlock/Deadlock_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/deadlock/GravNet.webp"
+            spell2="/agentes/deadlock/Sonic_Sensor.webp"
+            spell3="/agentes/deadlock/Barrier_Mesh.webp"
+            spell4="/agentes/deadlock/Annihilation.webp"
+            icono="/Icons/SentinelClassSymbol.webp"
+            
+            texto="Deadlock, la agente noruega, despliega un surtido de avanzados nanocables para defender el campo de batalla de cualquier asalto, por letal que sea. Nadie escapa a su atenta mirada ni sobrevive a su ferocidad implacable."
+            titulo="DEADLOCK"
+            descriTitulo="Centinela"
+        
+            texto1="(Habilidad-1) GravNet: EQUIPA una granada GravNet. DISPARA para lanzarla. DISPARO ALTERNATIVO para lanzar la granada por debajo. La GravNet detona al caer, obligando a los enemigos atrapados en su interior a agacharse y moverse lentamente. Con esta habilidad, el movimiento del jugador contrario se verá restringido y proporcionará el tiempo justo para que el equipo de Deadlock saque provecho o corra hacia un mejor punto de ventaja."
+            texto2="(Habilidad-2) Sensor Sónico: EQUIPA un Sensor sónico. DISPARA para desplegarlo. El sensor rastrea la zona en busca de enemigos que hagan ruido. Si detecta sonidos de pisadas, disparos o cualquier otro ruido considerable, aturde en área."
+            texto3="(Habilidad-3) Malla de Barrera: EQUIPA un disco de malla de barrera. DISPARA para lanzar hacia delante. Al aterrizar, el disco genera barreras desde el punto de origen que bloquean el movimiento del personaje. Esta barrera de 4 direcciones restringe esencialmente la ruta de los jugadores contrarios y proporciona una barrera impenetrable que sufre cierto daño al ser derribada."
+            texto4="(Definitiva) Aniquilación: EQUIPA un acelerador de nanocables. DISPARA para emitir un pulso de nanocables que capturan al primer enemigo con el que entran en contacto. El enemigo atrapado se ve arrastrado y muere si llega al final del recorrido, a menos que sea liberado. La envoltura de los nanocables se puede destruir."
+         
+            />
+        </section>
+    </main>

@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/clove/Clove_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/clove/Meddle.webp"
+            spell2="/agentes/clove/Ruse.webp"
+            spell3="/agentes/clove/Pick-me-up.webp"
+            spell4="/agentes/clove/Not_Dead_Yet.webp"
+            icono="/Icons/ControllerClassSymbol.webp"
+            
+            texto="Clove es un agente escocés que domina las esencias de la vida y la inmortalidad. Su capacidad para regresar de la muerte y crear caos en el campo de batalla lo convierte en un controlador versátil y enigmático. Ideal para jugadores que buscan un estilo de juego táctico y disruptivo."
+            titulo="CLOVE"
+            descriTitulo="Controlador"
+        
+            texto1="(Habilidad-1) Meddle: Equipa un fragmento de esencia de inmortalidad. Dispara para lanzar el fragmento, que estalla tras un breve retardo y aplica decaimiento temporal a todos los objetivos atrapados en su interior. Útil para debilitar a los oponentes antes de un enfrentamiento."
+            texto2="(Habilidad-2) Veil: Equípate para visualizar el campo de batalla. Dispara para establecer las ubicaciones donde se desplegarán las nubes de Clove. Disparo alternativo para confirmar, lanzando nubes que bloquean la visión en las áreas seleccionadas. Clove puede usar esta habilidad incluso después de morir."
+            texto3="(Habilidad-3) Pick Me Up: Absorbe al instante la fuerza vital de un enemigo caído al que Clove haya dañado o matado, ganando prisa y salud temporal. Esta habilidad permite a Clove mantenerse en la lucha por más tiempo y reposicionarse rápidamente."
+            texto4="(Definitiva) Not Dead Yet: Tras morir, actívala para resucitar. Una vez resucitado, Clove debe conseguir una muerte o una asistencia dañina en un tiempo determinado o morirá nuevamente. Esta habilidad ofrece una segunda oportunidad para impactar en la ronda, pero requiere acción inmediata para mantenerse con vida."
+                        
+            />
+        </section>
+    </main>

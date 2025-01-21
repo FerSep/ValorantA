@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/iso/Iso_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/iso/Contingency.webp"
+            spell2="/agentes/iso/Undercut.webp"
+            spell3="/agentes/iso/Double_Tap.webp"
+            spell4="/agentes/iso/Kill_Contract.webp"
+            icono="/Icons/DuelistClassSymbol.webp"
+            
+            texto="Iso es un agente con habilidades que le permiten manipular energía radiante para crear barreras de protección y desmantelar a sus enemigos. Su capacidad para controlar el entorno con sus habilidades lo convierte en un duelist eficaz y un gran aliado para el equipo."
+            titulo="ISO"
+            descriTitulo="Duelista"
+        
+            texto1="(Habilidad-1) Contingency: Iso reúne energía prismática y la proyecta como una pared indestructible que bloquea las balas durante 4.6 segundos. Ideal para cubrir los movimientos del equipo o interrumpir el avance enemigo."
+            texto2="(Habilidad-2) Undercut: Iso lanza un perno molecular que atraviesa objetos sólidos y aplica el estado 'Vulnerable' a los enemigos tocados. Esta habilidad es útil para debilitar al enemigo antes de un enfrentamiento o forzar su reubicación."
+            texto3="(Habilidad-3) Double Tap: Iso inicia un temporizador que, al completarse, le otorga un escudo que absorbe daño. Durante el estado de flujo, eliminar o dañar a enemigos caídos genera orbes de energía que recargan el escudo o proporcionan uno nuevo."
+            texto4="(Ultimate) Kill Contract: Iso lanza una columna de energía que lo transporta a una arena interdimensional donde debe enfrentar a un enemigo en un duelo a muerte de 13 segundos. Esta habilidad permite a Iso concentrarse completamente en un objetivo y obtener una ventaja en combate."
+        
+            />
+        </section>
+    </main>

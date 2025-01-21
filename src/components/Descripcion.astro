@@ -1,0 +1,121 @@
+---
+const {
+    spell1,
+    spell2,
+    spell3,
+    spell4,
+    icono,
+    texto,
+    titulo,
+    descriTitulo,
+    texto1,
+    texto2,
+    texto3,
+    texto4
+
+} = Astro.props  
+    
+
+---
+
+<div class="descri">
+    <h2>{titulo}</h2>
+    
+    <article class="texto">     
+      <p id="Texto"> 
+        <img class="icon" src={icono} alt="">
+        {descriTitulo}
+        <br>
+        <span class="texto" id="TextoP" >{texto}</span>
+      </p>
+
+    </article>
+  
+    <nav class="habilidades">
+        
+        <img src={spell1} alt="" class="spell" data-text={texto1}>
+        <img src={spell2} alt="" class="spell" data-text={texto2}>
+        <img src={spell3} alt="" class="spell" data-text={texto3}>
+        <img src={spell4} alt="" class="spell" data-text={texto4}>
+
+    </nav>
+  
+
+
+  </div>
+
+  <script defer>
+   
+    document.addEventListener("DOMContentLoaded", () => {
+      const spells = document.querySelectorAll('.spell');
+      
+      
+     
+      spells.forEach(spell => {
+        spell.addEventListener('click', () => {
+          
+          const nuevoTexto = spell.getAttribute('data-text');
+
+          const texto = document.getElementById('TextoP');
+
+          texto.textContent = nuevoTexto;
+          
+        });
+      });
+    });
+  </script>
+
+  <style>
+.descri{
+width: 48%;
+height: 520px;
+color: white;
+}
+
+.texto {
+position: relative; 
+}
+
+.texto p {
+margin: 0; 
+padding-left: 70px; 
+line-height: 1.5; 
+font-size:large;
+height: 300px;
+}
+
+.texto .icon {
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 60px; 
+height: 60px; 
+text-align: center; 
+line-height: 40px; 
+font-size: 16px; 
+border-radius: 5px; 
+}
+
+.descri h2{
+text-align: center;
+}
+
+.habilidades{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 24px;
+}
+.spell{
+  cursor: pointer;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.50);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+
+  </style>

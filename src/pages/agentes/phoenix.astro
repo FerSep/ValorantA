@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/phoenix/Phoenix_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/phoenix/Blaze.webp"
+            spell2="/agentes/phoenix/Curveball.webp"
+            spell3="/agentes/phoenix/Hot_Hands.webp"
+            spell4="/agentes/phoenix/Run_it_Back.webp"
+            icono="/Icons/DuelistClassSymbol.webp"
+            
+            texto="Phoenix es un agente duelist que se especializa en curarse a sí mismo y dominar el combate cercano. Su capacidad para renovarse y causar daño masivo lo convierte en un agresor de primer nivel, ideal para jugadores que buscan tomar la iniciativa y controlar la situación con habilidad."
+            titulo="PHOENIX"
+            descriTitulo="Duelista"
+        
+            texto1="(Habilidad-1) Blaze: Phoenix crea una pared de fuego que bloquea la visión y puede curarse al estar dentro de ella. Esta habilidad es útil tanto para defender como para forzar al enemigo a moverse o salir de sus posiciones."
+            texto2="(Habilidad-2) Curveball: Phoenix lanza una granada cegadora que rebota en las esquinas, cegando a los enemigos en su área de efecto. Ideal para atacar o defender, obligando a los enemigos a apartarse de su camino o ceder terreno."
+            texto3="(Habilidad-3) Hot Hands: Phoenix lanza una bola de fuego que inflige daño a los enemigos y le cura si está dentro de la explosión. Esta habilidad puede utilizarse para dañar a los oponentes o curarse rápidamente si está en una situación de peligro."
+            texto4="(Ultimate) Run It Back: Phoenix marca un lugar en el mapa como su punto de resurgimiento. Si es eliminado durante el uso de esta habilidad, resucita en el mismo lugar con salud completa, dándole una segunda oportunidad para seguir combatiendo."
+        
+            />
+        </section>
+    </main>

@@ -1,0 +1,32 @@
+---
+const {imagen} = Astro.props
+
+---
+
+
+<div class="container">
+
+    <img src={imagen} alt="" class="imagen">
+
+</div>
+
+<style>
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .imagen{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+        filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
+    }
+    
+   
+</style>

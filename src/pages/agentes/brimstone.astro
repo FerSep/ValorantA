@@ -1,0 +1,41 @@
+
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/brimstone/Brimstone_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/brimsotne/Incendiary.webp"
+            spell2="/agentes/brimsotne/Stim_Beacon.webp"
+            spell3="/agentes/brimsotne/Sky_Smoke.webp"
+            spell4="/agentes/brimsotne/Orbital_Strike.webp"
+            icono="/Icons/ControllerClassSymbol.webp"
+            
+            texto="Brimstone es un personaje confiable y versátil que sobresale en controlar el mapa y apoyar a su equipo. Sus habilidades le permiten asegurar áreas estratégicas y crear ventajas tácticas. Es ideal para jugadores que buscan un estilo de juego sólido y efectivo en equipo."
+            titulo="BRIMSTONE"
+            descriTitulo="Controlador"
+        
+            texto1="(Habilidad-1) Incendiary: Brimstone lanza una granada incendiaria que explota al impactar, creando un área de fuego que inflige daño a los enemigos atrapados en ella. Es útil para despejar posiciones o bloquear zonas importantes."
+            texto2="(Habilidad-2) Stim Beacon: Brimstone despliega un baliza en el suelo que otorga velocidad de disparo adicional y mejora el manejo de armas para él y sus aliados dentro del área de efecto. Ideal para ganar ventaja en enfrentamientos."
+            texto3="(Habilidad-3) Sky Smoke: Brimstone llama a un satélite para desplegar cortinas de humo en ubicaciones específicas. Estas nubes bloquean la visión del enemigo y facilitan la toma de puntos o la defensa de áreas estratégicas."
+            texto4="(Ultimate) Orbital Strike: Brimstone utiliza un marcador láser para ordenar un bombardeo orbital en un área específica. Esta habilidad inflige un daño masivo y obliga a los enemigos a abandonar posiciones clave. Perfecta para eliminar oponentes atrincherados."
+            
+            />
+        </section>
+    </main>

@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/omen/Omen_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/omen/Shrouded_Step.webp"
+            spell2="/agentes/omen/Paranoia.webp"
+            spell3="/agentes/omen/Dark_Cover.webp"
+            spell4="/agentes/omen/From_the_Shadows.webp"
+            icono="/Icons/ControllerClassSymbol.webp"
+            
+            texto="Omen es un agente que se especializa en el control de la información y la manipulación del espacio. Su capacidad para teletransportarse y crear distracción en el enemigo lo convierte en un excelente controlador de la visión, perfecto para jugadores que disfrutan de un estilo táctico y estratégico."
+            titulo="OMEN"
+            descriTitulo="Controlador"
+        
+            texto1="(Habilidad-1) Shrouded Step: Omen teletransporta una corta distancia, cambiando su posición de manera repentina. Esta habilidad le permite reposicionarse rápidamente, evadir ataques o sorprender a los enemigos desde ángulos inesperados."
+            texto2="(Habilidad-2) Paranoia: Omen lanza una sombra a lo largo de un trayecto, cegando y debilitando a los enemigos que se encuentren en su camino. Es útil para desorientar a los oponentes antes de un asalto o para crear una apertura en puntos de control."
+            texto3="(Habilidad-3) Dark Cover: Omen lanza una esfera de sombra que viaja por el mapa, bloqueando la visión. El área de la esfera puede ser controlada, lo que permite a Omen crear cobertura para su equipo o negar la visibilidad al enemigo durante una ronda."
+            texto4="(Ultimate) From the Shadows: Omen selecciona un área del mapa y se teletransporta a ese lugar. Esta habilidad le permite moverse de manera estratégica, sorprender a los enemigos o crear desinformación en el campo de batalla."
+        
+            />
+        </section>
+    </main>

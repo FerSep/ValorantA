@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/harbor/Harbor_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/harbor/High_Tide.webp"
+            spell2="/agentes/harbor/Cove.webp"
+            spell3="/agentes/harbor/Cascade.webp"
+            spell4="/agentes/harbor/Reckoning.webp"
+            icono="/Icons/ControllerClassSymbol.webp"
+            
+            texto="Harbor es un agente que controla el agua para crear barreras y proteger a su equipo. Su habilidad para manipular el entorno le permite tanto defender como atacar, ofreciendo un control estratégico del espacio. Ideal para jugadores que disfrutan de ser el ancla defensiva y crear oportunidades para su equipo."
+            titulo="HARBOR"
+            descriTitulo="Controlador"
+        
+            texto1="(Habilidad-1) High Tide: Harbor lanza una gran pared de agua que se desplaza por el mapa. Esta pared bloquea la visión y ralentiza a los enemigos que la atraviesan. Es perfecta para dividir el campo de batalla, cubrir avances o desorientar al enemigo."
+            texto2="(Habilidad-2) Cove: Harbor lanza un dispositivo que crea una esfera de agua en el suelo. La esfera actúa como una protección temporal, bloqueando las balas y la visión, ideal para cubrir a su equipo durante un asalto o para proteger una zona clave."
+            texto3="(Habilidad-3) Cascade: Harbor lanza una corriente de agua que se desplaza en línea recta, empujando a los enemigos hacia atrás y creando un área donde la visibilidad y el movimiento se ven comprometidos. Es útil para forzar a los enemigos a abandonar una posición o interrumpir su avance."
+            texto4="(Ultimate) Deluge: Harbor invoca una poderosa tormenta de agua que cubre un área grande del mapa, ralentizando a los enemigos dentro de ella y creando un campo donde la visión y la movilidad se ven severamente afectadas. Ideal para tomar control de un sitio o desorganizar completamente al enemigo."
+        
+            />
+        </section>
+    </main>

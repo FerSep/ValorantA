@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/kayo/KAYO_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/kayo/FRAG-ment.webp"
+            spell2="/agentes/kayo/FLASH-drive.webp"
+            spell3="/agentes/kayo/NULL-cmd.webp"
+            spell4="/agentes/kayo/ZERO-point.webp"
+            icono="/Icons/InitiatorClassSymbol.webp"
+            
+            texto="KAY/O es un agente con habilidades centradas en el control del campo de batalla y la interrupción de las habilidades enemigas. Su capacidad para neutralizar a otros agentes y su presencia en el campo lo convierten en una pieza clave para cualquier equipo. Ideal para jugadores que buscan apoyo táctico y un impacto directo en el control del juego."
+            titulo="KAY/O"
+            descriTitulo="Iniciador"
+        
+            texto1="(Habilidad-1) FRAG/ment: KAY/O lanza una granada de fragmentación que rebota en el suelo antes de explotar en varias pequeñas esferas que infligen daño en área. Esta habilidad es ideal para despejar posiciones enemigas o interrumpir a un grupo de enemigos reunidos."
+            texto2="(Habilidad-2) FLASH/drive: KAY/O lanza una granada cegadora que explota al contacto, cegando a los enemigos cercanos. Se puede activar manualmente o hacer que explote al tocar una superficie. Es útil para entrar a sitios o desorientar a los enemigos antes de un enfrentamiento."
+            texto3="(Habilidad-3) NULL/cmd: KAY/O lanza un dispositivo que crea un área de supresión que desactiva las habilidades enemigas dentro de su radio de acción. Esto es crucial para interrumpir a los agentes enemigos que dependen de sus habilidades para atacar o defender."
+            texto4="(Ultimate) ANNIHILATION: KAY/O lanza una granada que explota al contacto, infligiendo daño en área. Además, inflige daño adicional y reduce la movilidad de los enemigos atrapados dentro de su radio. Es perfecta para asediar sitios y debilitar a los enemigos antes de un ataque masivo."
+
+            />
+        </section>
+    </main>

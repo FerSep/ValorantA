@@ -1,0 +1,40 @@
+---
+import '../../Styles/Global.css';
+import Layout from "../../layouts/Layout.astro"
+import Descri from "../../components/Descripcion.astro"
+import Agente from "../../components/Agente.astro"
+---
+
+
+
+<Layout>
+    
+
+    <main>
+        <section class="caja">
+    
+            <Agente 
+            imagen="/agentes/cypher/Cypher_Artwork_Full.webp"
+    
+            />
+    
+    
+            <Descri p
+            spell1="/agentes/cypher/Trapwire.webp"
+            spell2="/agentes/cypher/Cyber_Cage.webp"
+            spell3="/agentes/cypher/Spycam.webp"
+            spell4="/agentes/cypher/Neural_Theft.webp"
+            icono="/Icons/SentinelClassSymbol.webp"
+            
+            texto="Cypher es un maestro del espionaje y la información, capaz de controlar el campo de batalla con su red de dispositivos. Su habilidad para recopilar datos sobre la posición enemiga lo convierte en una herramienta invaluable para el equipo. Ideal para jugadores estratégicos y calculadores que disfrutan de anticiparse a los movimientos rivales."
+            titulo="CYPHER"
+            descriTitulo="Centinela"
+        
+            texto1="(Habilidad-1) Trapwire: Cypher coloca un cable trampa entre dos paredes. Los enemigos que lo atraviesan quedan revelados y aturdidos tras un breve retardo, a menos que destruyan el cable a tiempo. Útil para vigilar flancos o detener avances enemigos."
+            texto2="(Habilidad-2) Cyber Cage: Cypher lanza una jaula cibernética que puede activarse manualmente, creando una barrera que bloquea la visión y ralentiza a los enemigos que la atraviesan. Perfecta para bloquear rutas o dificultar el movimiento del equipo enemigo."
+            texto3="(Habilidad-3) Spycam: Cypher coloca una cámara remota en cualquier superficie. Puede usarla para observar áreas y disparar un dardo rastreador a los enemigos, revelando su ubicación. Una herramienta esencial para recopilar información sin exponerse al peligro."
+            texto4="(Ultimate) Neural Theft: Cypher usa el cadáver de un enemigo para revelar la ubicación de todos los miembros vivos de su equipo. Esta habilidad proporciona información crítica para planificar ataques o defender sitios."
+               
+            />
+        </section>
+    </main>
